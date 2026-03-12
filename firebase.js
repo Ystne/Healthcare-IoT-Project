@@ -4,7 +4,7 @@ import { getAuth } from 'firebase/auth';
 import { getDatabase } from 'firebase/database'; 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBaELhS9_inyH_KEFCam8tl1lfPVZY4eJY",
+  apiKey: "--------"
   authDomain: "healthcare-true.firebaseapp.com",
   projectId: "healthcare-true",
   storageBucket: "healthcare-true.appspot.com",
@@ -17,4 +17,5 @@ const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
 
 // Export Realtime Database instance
+
 export const database = getDatabase(app);
